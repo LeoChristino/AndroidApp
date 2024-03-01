@@ -19,6 +19,8 @@
         android:text="Usuário" />
 
     <EditText
+        android:inputType="textPersonName"
+        android:maxLength="25"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
@@ -28,6 +30,8 @@
         android:text="Senha" />
 
     <EditText
+        android:inputType="textPassword"
+        android:maxLength="11"
         android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
